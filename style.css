@@ -1,0 +1,109 @@
+body{
+    background-image:url(images/pexels-oskar-gross-1074333632-34328608.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0px;
+}
+.head{
+    display:flex;
+    font-family: sans-serif;
+    font-size: 50px;
+    color:rgb(215, 135, 37);
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+a{
+    font-family:sans-serif;
+    color:orange;
+    font-size:13px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    height:270px;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+}
+img{
+    width:40px;
+}
+.name{
+display:inline;
+font-family:'Roboto', sans-serif;
+color:rgb(220, 104, 15);
+}
+.username .name,.password .name{
+    margin-right:5px;
+}
+.icons,.input{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:16px;
+}
+.sub-icon{
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+
+}
+@media screen and (min-width:360px){
+    .main{
+        width:300px;
+    }
+}
+.username,.password{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:15px;
+}
+.username input,.password input{
+    padding:5px;
+    border: 1px solid orange;
+    border-radius:4px;
+}
+.butt{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.butt div input{
+    color:white;
+    background-color: rgb(220, 104, 15);
+    border-radius: 4px;
+    border:1px solid orange;
+    padding:5px 16px 5px 16px;
+    cursor:pointer;
+}
+
+.rowcontainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hr{
+    display: flex;
+    width:100%;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+
